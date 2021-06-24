@@ -29,6 +29,9 @@ the following restrictions:
 #define MATHC_VERSION_DD 16
 #define MATHC_VERSION_MICRO 0
 
+#define MATHC_USE_FLOATING_POINT
+#define MATHC_USE_UNIONS
+
 #if !defined(MATHC_NO_INT)
 #define MATHC_USE_INT
 #endif
